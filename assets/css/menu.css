@@ -1,0 +1,134 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background: hsl(48deg 54% 73%);
+}
+
+a {
+  color: inherit;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+.content {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background: hsl(48deg 54% 73%);
+    position: fixed;
+    height: 100px;
+    font-family: 'Seaweed Script', cursive;
+    font-size: 48px;
+    text-align: center;
+    z-index: 10;
+    text-decoration: none;
+  }
+
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  top: 120px;
+  padding-top: 20px;
+  padding-bottom: 100px;
+  position: relative;
+  background: #DDDDDD;
+  font-family: 'Oswald', sans-serif;
+  font-size: 48px;
+  text-align: center;
+}
+
+.donut-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.donuts {
+  border-radius: 50%;
+  padding: 20px;
+  width: 300px;
+  height: auto;
+}
+
+.content #title {
+  display: inline-block;
+  float: left;
+  overflow: visible;
+  font-weight: 600;
+}
+
+.content #home {
+  display: inline-block;
+  float: right;
+  overflow: hidden;
+  font-size: 28px;
+  padding-right: 40px;
+}
+
+.content #about {
+  display: inline-block;
+
+  float: right;
+  overflow: visible;
+  font-size: 28px;
+}
+
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    overflow: visible;
+    text-align: center;
+    font-family: 'Seaweed Script', cursive;
+    background: hsl(48deg 54% 73%);
+    font-size: 28px;
+
+}
+
+.content #addy {
+  display: inline-block;
+  float: left;
+  overflow: visible;
+  font-size: 28px;
+}
+
+.content #tooth {
+  display: inline-block;
+  overflow: visible;
+  font-weight: 600;
+}
+
+.content #number {
+  display: inline-block;
+  float: right;
+  overflow: visible;
+  font-size: 28px;
+}
